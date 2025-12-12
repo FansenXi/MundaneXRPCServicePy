@@ -1,0 +1,21 @@
+# Only ignore specific files, not the requested formats
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
