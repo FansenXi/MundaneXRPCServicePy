@@ -11,6 +11,7 @@ Currently supported environments: Linux aarch64 and amd64.
 - [`XRoboToolkit PC Service`](https://github.com/XR-Robotics/XRoboToolkit-PC-Service#)
 
 ## Building the Project
+download the apk and corresponding deb file in the release page.
 ```
 apt install corresponding.deb
 cd /opt/app/RoboticsService

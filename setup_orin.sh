@@ -15,7 +15,7 @@ cp tmp/XRoboToolkit-PC-Service/RoboticsService/PXREARobotSDK/PXREARobotSDK.h inc
 cp -r tmp/XRoboToolkit-PC-Service/RoboticsService/PXREARobotSDK/nlohmann include/aarch64/nlohmann/
 cp tmp/XRoboToolkit-PC-Service/RoboticsService/PXREARobotSDK/build/64/libPXREARobotSDK.so lib/aarch64/
 #remember to check the path
-# rm -rf tmp
+rm -rf tmp
 
 # Build the project
 if [[ "$CONDA_DEFAULT_ENV" != "" ]]; then
